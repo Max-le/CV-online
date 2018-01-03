@@ -4,15 +4,16 @@
 	<title>CV en ligne</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-<!-- 	Get jquery library online instead of locally. -->	
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- 	Get jquery library online instead of locally. -->	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<!--  Jquery stuff -->	
-<script>
+	<!--  Jquery stuff -->	
+	<script>
 	//.ready method is triggered when page is loaded.
 	$(document).ready(function(){
 		$("button").click(function() {
 			$("#email").fadeIn(3000);
+			$("button").hide();
 
 
 		});
@@ -31,10 +32,10 @@
 				<p><strong>Max Lepin</strong><br>
 					3/10/1997<br>
 
-					Rue Saint-Martin	123 <br>1457 Walhain
+					Rue Saint-Martin 123 <br>1457 Walhain
 					<br>
 					Email : <a hidden id="email" href="mailto:max.09@outlook.com"> max.09@outlook.com</a></p>
-										<button>Afficher l'adresse email</button>
+					<button>Afficher l'adresse email</button>
 
 				</div>
 				<div class="photo">

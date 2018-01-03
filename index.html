@@ -12,7 +12,7 @@
 	//.ready method is triggered when page is loaded.
 	$(document).ready(function(){
 		$("button").click(function() {
-			$("#infos").fadeIn(3000);
+			$("#email").fadeIn(3000);
 
 
 		});
@@ -28,18 +28,18 @@
 			<div class="info">
 
 				<!-- Enlever hidden pour afficher infos. -->
-				<p id="infos" hidden><strong>Max Lepin</strong><br>
+				<p><strong>Max Lepin</strong><br>
 					3/10/1997<br>
 
 					Rue Saint-Martin	123 <br>1457 Walhain
 					<br>
-					Email : <a href="mailto:max.09@outlook.com"> max.09@outlook.com</a></p>
+					Email : <a hidden id="email" href="mailto:max.09@outlook.com"> max.09@outlook.com</a></p>
+										<button>Afficher l'adresse email</button>
 
 				</div>
 				<div class="photo">
 					<img src="guide.png" alt="Photo de profil" height="100" width="100">
 
-					<button>Submit</button>
 				</div>
 			</div>
 			<div id="exp" class="section">

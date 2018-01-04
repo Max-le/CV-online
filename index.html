@@ -12,7 +12,7 @@
 	//.ready method is triggered when page is loaded.
 	$(document).ready(function(){
 		$("button").click(function() {
-			$("#email").fadeIn(3000);
+			$("#email").slideDown();
 			$("button").hide();
 
 
@@ -34,7 +34,7 @@
 
 					Rue Saint-Martin 123 <br>1457 Walhain
 					<br>
-					Email : <a hidden id="email" href="mailto:max.09@outlook.com"> max.09@outlook.com</a></p>
+					<a id="email" hidden href="mailto:max.09@outlook.com"> max.09@outlook.com</a></p>
 					<button>Afficher l'adresse email</button>
 
 				</div>

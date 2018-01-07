@@ -7,6 +7,8 @@ var emailhtml = "<a id='email' hidden href='mailto:max.09@outlook.com'> max.09@o
 	//.ready method is triggered when page is loaded.
 	$(document).ready(function(){
 		$("button").click(function() {
+			//Remplacer button par emailhtml
+			$("button").replaceWith(emailhtml);
 			$("#email").slideDown();
 			$("button").hide();
 

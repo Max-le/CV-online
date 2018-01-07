@@ -1,5 +1,5 @@
 // Html code for email
-var emailhtml = "<a id='email' hidden href='mailto:max.09@outlook.com'> max.09@outlook.com</a>"
+var emailhtml = "<a id='email' href='mailto:max.09@outlook.com'> max.09@outlook.com</a>"
 
 
 	//  Jquery stuff 
@@ -10,7 +10,7 @@ var emailhtml = "<a id='email' hidden href='mailto:max.09@outlook.com'> max.09@o
 			
 			//Remplacer button par emailhtml
 			$("button").replaceWith(emailhtml);
-			$("#email").slideDown();
+		  	$("#email").slideDown();
 
 		});
 	});

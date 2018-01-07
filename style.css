@@ -3,12 +3,13 @@
 	/*Centrer le contenu à l'intérieur des marges*/
 	margin: auto;
 	font-size: 14px;
-	font-family: 'Calibri';
+	font-family: Apel;
 }
 
 .infophoto{
 	height: 120px;
 	margin: 20px;
+	margin-bottom: 30px;
 }
 
 .info{
@@ -30,6 +31,11 @@
 }
 .sec-d{
 	margin-left: 150px;
+}
+.Links {
+	font-size: 16px;
+	float: right;
+	margin-right: 10px;
 }
 
 

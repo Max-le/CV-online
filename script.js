@@ -3,7 +3,6 @@ var emailhtml = "<a id='email' hidden='true' href='mailto:max.09@outlook.com'> m
 
 
 	//  Jquery stuff 
-
 	//.ready method is triggered when page is loaded.
 	$(document).ready(function(){
 		$("button").click(function() {
@@ -14,4 +13,4 @@ var emailhtml = "<a id='email' hidden='true' href='mailto:max.09@outlook.com'> m
 
 		});
 	});
-
+	// end jQuery stuff

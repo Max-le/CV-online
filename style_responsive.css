@@ -1,36 +1,32 @@
-.infophoto{
-background-color: red;
-}
+
 .container{
-	background-color: #999999;
+	background-color: lavender;
 }
 #info {
-	background-color: lightblue;
 	min-height: 120px;
 }
 #infophoto {
-	background-color: orange ;
 }
 #photo {
-	background-color: green;
 }
 #section {
-	background-color: blue;
 	min-height: 70px;
 }
 #date {
-	background-color: beige;
 		min-height: 50px;
+		background-color: #E1E1E1;
 
 }
 #contenu {
-	background-color: green;
 		min-height: 50px;
+		background-color: #B3B3B3;
 
 }
 #links-row{
-	background-color: red;
 }
 #links-col{
-	background-color: gray;
+}
+.row {
+	margin: 5px;
+	background-color:  #C4C4C4;
 }

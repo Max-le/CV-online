@@ -3,7 +3,6 @@ CV interactif avec hyperliens.
 
 Site web : www.maxlepin.ml
 
-## Tasks 
-
-* Make responsive : use Bootstrap 
-  * Create a column
+Use this tutorial :
+https://goo.gl/c6bApN
+http://getbootstrap.com/docs/3.3/getting-started/#download

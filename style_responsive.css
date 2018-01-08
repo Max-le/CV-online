@@ -4,10 +4,12 @@
 }
 #info {
 	min-height: 120px;
+	background-color: #E1E1E1 ;
 }
 #infophoto {
 }
 #photo {
+	background-color: #B3B3B3;
 }
 #section {
 	min-height: 70px;

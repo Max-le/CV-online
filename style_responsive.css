@@ -4,6 +4,33 @@ background-color: red;
 .container{
 	background-color: #999999;
 }
-.col1 {
+#info {
+	background-color: lightblue;
+	min-height: 120px;
+}
+#infophoto {
+	background-color: orange ;
+}
+#photo {
+	background-color: green;
+}
+#section {
 	background-color: blue;
+	min-height: 70px;
+}
+#date {
+	background-color: beige;
+		min-height: 50px;
+
+}
+#contenu {
+	background-color: green;
+		min-height: 50px;
+
+}
+#links-row{
+	background-color: red;
+}
+#links-col{
+	background-color: gray;
 }

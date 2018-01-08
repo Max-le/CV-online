@@ -10,8 +10,11 @@
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="bootstrap.css">
+  <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="style_responsive.css">
 
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -22,20 +25,84 @@
 
     <!--     The entire grid must be in the contaniner.-->  
     <div class="container">
+
       <!-- Ligne infophoto-->   
-      <div id="infophoto" class="row">   
+      <div id="infophoto" class="row">
 
-        <div class="col-md-4 ">
-          <div class="col1">colonne principale.</div>
+        <div id="info" class="col-md-3" >
+          <p><strong>Max Lepin</strong><br>
+            3/10/1997<br>
+
+            Rue Saint-Martin 123 <br>1457 Walhain
+            <br>
+            <button>Afficher l'adresse email</button>
+            
+          </p> 
         </div>
+        <div id="photo" class="col-md-3 col-md-offset-6" >
+          <img src="guide.png" alt="Photo de profil" height="100" width="100">        </div>
 
-      </div> 
+        </div> 
+        <!-- Experience -->
+        <div id="section" class="row">
+          <h2>Experience</h2>
+          <div id="date" class="col-md-2" >
+            2016
+          </div>
+          <div id="contenu" class="col-md-10" >
+            Job d'étudiant - LA BIOSPHERE : magasin d'alimentation biologique. <br> Vente en caisse, nettoyage, rangement
+          </div>
+        </div>
+        <!-- Education -->
+        <div id="section" class="row">
+          <h2>Education</h2>
+          <div id="date" class="col-md-2" >
+            2016-2017<br><br>
+            2011-2016
+          </div>
+          <div id="contenu" class="col-md-10" >
+            1ère année en Bachelier en Sciences économiques et de gestion - <a target="_blank"  href="https://uclouvain.be">Université Catholique de Louvain</a>
+            <br><br>
+            CESS (orientation générale) - <a target="_blank" href="http://www.cste.be/msg/">Collège Saint-Etienne à Mont-Saint-Guibert</a><br>Option Sciences et Langues modernes ( Allemand, Anglais, Néerlandais)
+
+
+          </div>
+        </div>
+        <!-- Langues -->
+        <div id="section" class="row">
+          <h2>Langues</h2>
+          T<!-- ODO : Changer date (id)  -->
+          <div id="date" class="col-md-2" >
+            Allemand<br><br>
+            Néerlandais<br><br>
+            Anglais<br><br>
+            Français
+          </div>
+          <div id="contenu" class="col-md-10" >
+            B1 <i> début d'autonomie ; se débrouiller, exprimer son opinion.</i><br><br>
+
+            B2 <i>Compréhension courante et capacité à converser ; émettre un avis, soutenir systématiquement une argumentation.</i><br>
+
+            C1 <i>S'exprimer spontanément et couramment, assez bonne maîtrise.</i><br><br>
+
+            C2 : (Langue maternelle) <i>Bonne maîtrise de l'orthographe, finaliste du concours <a target="_blank" href="https://www.la-dictee-du-balfroid.be/">"la dictée du Balfroid"</a> en 2009.</i>
+          </div>
+        </div>
+        <div class="row" id ="links-row">
+          <div id = "links-col" class="col-md-3 col-md-offset-9">
+
+            <a href="http://www.github.com/max-le/cv-online-new" target="_blank" >
+              <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+            <a href="cv_max_lepin.pdf" target="_blank"> <i class="fa fa-download fa-2x" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
 
 
 
-    <!-- Use local jQuery file instead of online-->
-    <script src="jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
-  </html>
+      <!-- Use local jQuery file instead of online-->
+      <script src="jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+    </html>

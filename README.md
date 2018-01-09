@@ -7,6 +7,7 @@ __Technologies utilisées__ :
 
 * HTML5
 * CSS
+* Javascript
 * jQuery
 * Bootstrap 
 * Font Awesome

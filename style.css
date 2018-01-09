@@ -3,6 +3,12 @@
 	background-color: lavender;
 	width: 650px;
 }
+h2 {
+	font-size: 26px;
+	color: #3388BB;
+	text-transform:uppercase;
+	border-bottom:3px solid #3388DD;
+}
 #info {
 	background-color: #E1E1E1 ;
 }

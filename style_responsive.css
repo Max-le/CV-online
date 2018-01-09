@@ -3,7 +3,6 @@
 	background-color: lavender;
 }
 #info {
-	min-height: 120px;
 	background-color: #E1E1E1 ;
 }
 #infophoto {
@@ -12,15 +11,12 @@
 	background-color: #B3B3B3;
 }
 #section {
-	min-height: 70px;
 }
 #date {
-		min-height: 50px;
 		background-color: #E1E1E1;
 
 }
 #contenu {
-		min-height: 50px;
 		background-color: #B3B3B3;
 
 }

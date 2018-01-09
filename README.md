@@ -3,7 +3,11 @@ CV interactif avec hyperliens.
 
 Site web : www.maxlepin.ml
 
-## Tasks 
+## Technologies utilisées :  
 
-* Make responsive : use Bootstrap 
-  * Create a column
+* HTML5
+* CSS
+* jQuery
+* Bootstrap 
+* Font Awesome
+* Google font API

@@ -7,7 +7,6 @@ jQuery(document).ready(function(){
 
 	jQuery("button").click(function(){
 
-		jQuery("button").css('color', 'orange');
         //Remplacer button par emailhtml
         jQuery("button").replaceWith(emailhtml);
         jQuery("#email").slideDown();

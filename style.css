@@ -13,6 +13,7 @@ h2 {
 #info {
 }
 #infophoto {
+	margin: 20px;
 }
 #photo {
 }
@@ -31,4 +32,12 @@ h2 {
 .row {
 	margin: 5px;
 	background-color: white;
+} 
+
+@media 
+(max-width: 750px) {
+	#infophoto {
+		margin: 30px;
+		margin-left: 15px;
+	}
 }

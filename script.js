@@ -5,10 +5,10 @@ var emailhtml = "<a id='email' hidden='true' href='mailto:max.09@outlook.com'> m
 	//  Jquery stuff 
 	//.ready method is triggered when page is loaded.
 	$(document).ready(function(){
-		$("button").click(function() {
+		$("#btnemail").click(function() {
 			
 			//Remplacer button par emailhtml
-			$("button").replaceWith(emailhtml);
+			$("#btnemail").replaceWith(emailhtml);
 		  	$("#email").slideDown();
 
 		});

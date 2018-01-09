@@ -11,10 +11,13 @@ h2 {
 	border-bottom:3px solid #3388DD;
 }
 #info {
+	background-color: blue;
 }
 #infophoto {
+	background-color: lavender;
 }
 #photo {
+	background-color: orange;
 }
 #section {
 }

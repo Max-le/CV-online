@@ -16,7 +16,12 @@ h2 {
 	text-transform:uppercase;
 	border-bottom:3px solid #3388DD;
 }
+button {
+}
 
+a {
+	color: #333333;
+}
 #info {
 }
 #infophoto {

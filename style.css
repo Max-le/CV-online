@@ -5,11 +5,22 @@
 	background-color: white;
 
 }
+/*Remove lines between rows  */
+.table>tbody>tr>td,
+.table>tbody>tr>th {
+  border-top: none;
+}
 h2 {
 	font-size: 26px;
 	color: #3388BB;
 	text-transform:uppercase;
 	border-bottom:3px solid #3388DD;
+}
+button {
+}
+
+a {
+	color: #333333;
 }
 #info {
 }

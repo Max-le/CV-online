@@ -3,6 +3,7 @@ CV interactif avec hyperliens.
 
 Site web : www.maxlepin.ml
 
+
 __Technologies utilisées__ :  
 
 * HTML5
@@ -12,3 +13,4 @@ __Technologies utilisées__ :
 * Bootstrap 
 * Font Awesome
 * Google font API
+

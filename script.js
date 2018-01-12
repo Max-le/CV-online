@@ -3,7 +3,9 @@ var emailhtml = "<a id='email' hidden='true' href='mailto:max.09@outlook.com'> m
     
 
       jQuery( function() {
-    jQuery( "a" ).tooltip({track:true});
+    jQuery( "a" ).tooltip({show: {delay:500 }});
+
+
   } );
 jQuery(document).ready(function(){
 

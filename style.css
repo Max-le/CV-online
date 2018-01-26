@@ -68,11 +68,26 @@ a {
 
 }
 
+
 @media print
 {    
+	/*class for stuff that can appear only when
+	 user print the page*/
+	.print-only{
+
+	}
+	/*class for stuff that can need 
+	to be hidden when user print the page*/
     .no-print, .no-print *
     {
         display: none !important;
+    }
+}
+@media screen
+{
+    .no-print{}
+    .print-only{
+    	display:none;
     }
 }
 

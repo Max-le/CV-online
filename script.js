@@ -1,5 +1,5 @@
 // Html code for email
-var emailhtml = "<a id='email' class='no-print' hidden='true' href='mailto:max.09@outlook.com'> max.09@outlook.com</a>"
+var emailhtml = "<a id='email' hidden='true' href='mailto:max.09@outlook.com'> max.09@outlook.com</a>"
     
 
       jQuery( function() {

@@ -21,6 +21,7 @@ h2 {
 	border-bottom:3px solid #3388DD;
 }
 button {
+	display: none !important;
 }
 
 a {
@@ -67,6 +68,3 @@ a {
 	}
 
 }
-
-
-

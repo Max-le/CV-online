@@ -1,6 +1,12 @@
 // Html code for email
 var emailhtml = "<a id='email' hidden='true' href='mailto:max.09@outlook.com'> max.09@outlook.com</a>"
     
+
+      jQuery( function() {
+    jQuery( "a" ).tooltip({show: {delay:500 }});
+
+
+  } );
 jQuery(document).ready(function(){
 
 	console.log("document ready !");

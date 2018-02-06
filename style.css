@@ -1,4 +1,8 @@
 
+body{
+	background : ;
+} 
+
 .container{
 	font-size: 14px;
 	font-family: 'PT Serif', serif;
@@ -45,6 +49,15 @@ a {
 #links-row{
 }
 #links-col{
+}
+#name{
+	font-size: 48px;
+	color: #3388DD;
+}
+#email{
+	font-size: 14px;
+	color: #3388;
+
 }
 .row {
 	margin: 5px;

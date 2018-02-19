@@ -18,8 +18,4 @@ __Technologies utilisées__ :
 
 
 
-Obtenir lien vers calendrier Outlook : 
-
-Aller sur outlook.com
-Options -> Calendrier -> Calendriers partagé -> Publi. du calendrier
-! Ne pas se tromper de calendrier !
+Calendrier : basé sur un fichier Excel dans Onedrive.

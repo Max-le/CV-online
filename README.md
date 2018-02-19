@@ -16,3 +16,10 @@ __Technologies utilisées__ :
 * Font Awesome
 * Google font API
 
+
+
+Obtenir lien vers calendrier Outlook : 
+
+Aller sur outlook.com
+Options -> Calendrier -> Calendriers partagé -> Publi. du calendrier
+! Ne pas se tromper de calendrier !

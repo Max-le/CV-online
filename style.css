@@ -81,5 +81,12 @@ a {
 
 }
 
-
+.table-show>tbody>tr>td,
+.table-show>tbody>tr>th {
+border: ;
+	border-bottom: : 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+	line-height: 1;
+}
 

@@ -16,3 +16,6 @@ __Technologies utilisées__ :
 * Font Awesome
 * Google font API
 
+
+
+Calendrier : basé sur un fichier Excel dans Onedrive.

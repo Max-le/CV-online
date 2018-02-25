@@ -28,7 +28,8 @@ button {
 }
 
 a {
-	color: #333333;
+	color:  #004d80;
+	text-decoration: underline;
 }
 #info {
 	line-height: 1.2;

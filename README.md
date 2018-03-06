@@ -15,6 +15,7 @@ __Technologies utilisées__ :
 * Bootstrap 
 * Font Awesome
 * Google font API
+* Google Analytics
 
 
 

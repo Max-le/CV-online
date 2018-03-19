@@ -11,7 +11,7 @@ jQuery(document).ready(function(){
 
 	console.log("document ready !");
 
-	jQuery("button").click(function(){
+	jQuery("button-mail").click(function(){
 
         //Remplacer button par emailhtml
         jQuery("button").replaceWith(emailhtml);

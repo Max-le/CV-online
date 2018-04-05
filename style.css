@@ -82,6 +82,15 @@ a {
 
 }
 
+@media 
+(max-width: 750px) {
+	#links-col {
+
+    text-align: center;
+	}
+
+}
+
 .table-show>tbody>tr>td,
 .table-show>tbody>tr>th {
 

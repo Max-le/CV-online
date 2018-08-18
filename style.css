@@ -54,6 +54,11 @@ a {
 #name{
 	font-size: 44px;
 	color: #3388DD;
+	/* The following prevents highlight selection text */
+		  -webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
 }
 #email{
 	font-size: 14px;

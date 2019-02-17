@@ -2,6 +2,9 @@
 body{
 	background : ;
 } 
+.close {
+	text-decoration: none;
+}
 
 .container{
 	font-size: 14px;

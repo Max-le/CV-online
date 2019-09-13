@@ -6,6 +6,10 @@ body{
 	text-decoration: none;
 }
 
+#myname {
+	cursor: crosshair;
+}
+
 .container{
 	font-size: 14px;
 	font-family: 'PT Serif', serif;

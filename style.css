@@ -50,10 +50,7 @@ a {
 #contenu {
 
 }
-#links-row{
-}
-#links-col{
-}
+
 #name{
 	font-size: 44px;
 	color: #3388DD;
@@ -67,6 +64,9 @@ a {
 	font-size: 14px;
 	color: #3388;
 
+}
+#icon-link{
+	margin-top: 10px;
 }
 .row {
 	margin: 5px;

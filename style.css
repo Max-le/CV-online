@@ -5,8 +5,14 @@ body{
 	text-decoration: none;
 }
 
+/* Define animation */
+
+#icon-link{
+transition: 0.5s;
+}
+
 #icon-link:hover{
-	transform: scale(1.5)
+	  transform:scale(1.5);
 }
 #myname {
 	cursor: crosshair;

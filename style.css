@@ -5,6 +5,9 @@ body{
 	text-decoration: none;
 }
 
+#icon-link:hover{
+	transform: scale(1.5)
+}
 #myname {
 	cursor: crosshair;
 }

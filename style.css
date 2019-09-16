@@ -55,6 +55,8 @@ a {
 }
 
 #name{
+	/* Change mouse style */
+	cursor: pointer;
 	font-size: 44px;
 	color: #3388DD;
 	/* The following prevents highlight selection text */

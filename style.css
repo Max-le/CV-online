@@ -37,7 +37,7 @@ h2 {
 	font-size: 26px;
 	color: #3388BB;
 	text-transform:uppercase;
-	border-bottom:3px solid #3388DD;
+	border-bottom:3px solid;
 }
 button {
 }

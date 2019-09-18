@@ -16,7 +16,7 @@ jQuery(document).ready(function(){
 		console.log(newcolor)
 		count_clicks = count_clicks + 1
 		console.log("clicks on name : ", count_clicks);
-		if (count_clicks % 9 == 0) {
+		if (count_clicks % 4 == 0) {
 			console.log('EASTER EGG !!!');
 			$('#name').effect('pulsate');
 			$('#iconCard').effect('shake', {direction:"up"});

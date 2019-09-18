@@ -16,7 +16,8 @@ jQuery(document).ready(function(){
 		console.log(newcolor)
 		count_clicks = count_clicks + 1
 		console.log("clicks on name : ", count_clicks);
-		if (count_clicks % 4 == 0) {
+		if (count_clicks % 7 == 0 ) {
+			$('#name').off('click');
 			console.log('EASTER EGG !!!');
 			$('#name').effect('pulsate');
 			$('#iconCard').effect('shake', {direction:"up"});
@@ -25,13 +26,12 @@ jQuery(document).ready(function(){
 
 				$('#iconGit').animate({color:'yellow'},800, function name(params) {
 					$('#iconIn').effect('shake', {direction:"up"});
-					$('#iconIn').animate({color:'red'},800)
+					$('#iconIn').animate({color:'red'},800);
+					$("#name").animate({color:'#3388DD'},5000);
+
+					
 				})
-			})	
-			
-		
-						
-				
+			})		
 			
 		}
 		

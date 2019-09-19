@@ -11,12 +11,12 @@ jQuery(document).ready(function(){
 		$( document ).tooltip();
 	  } );
 	jQuery("#name").click(function(){
-		var newcolor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
-		console.log('New color value :')
-		console.log(newcolor)
+		// var newcolor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+		// console.log('New color value :')
+		// console.log(newcolor)
 		count_clicks = count_clicks + 1
-		console.log("clicks on name : ", count_clicks);
-		if (count_clicks % 7 == 0 ) {
+		// console.log("clicks on name : ", count_clicks);
+		if (count_clicks == 1 ) {
 			$('#name').off('click');
 			console.log('EASTER EGG !!!');
 			$('#name').effect('pulsate');

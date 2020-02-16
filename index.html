@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Personal website presenting my Curriculum Vitae.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   
@@ -12,20 +13,22 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
+    
     gtag('config', 'UA-112220895-1');
   </script>
+  
+  <title>Max Lepin - Curriculum Vitae</title>
+  <link rel="icon" type="image/png" href="briefcase.png">
 
-  <title>Max Lepin</title>
-
+  
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
-
+  
   <!-- Use local jQuery file instead of online-->
   <script src="jquery.min.js"></script>
-
+  
   <!-- Custom JS -->
   <script type="text/javascript" src="script.js"></script>
   <!-- Font awesome -->
@@ -33,28 +36,53 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
   
-
+  
 </head>
 <body>
-
-<!--     Why use a grid layout ? 
+  
+  <!--     Why use a grid layout ?
     - It provides structure.
     The grid system uses a series of rows and columns. This layout will adapt to any screen type.-->
-
-    <!--     The entire grid must be in the contaniner.-->  
+    
+    <!--     The entire grid must be in the contaniner.-->
     <div class="container">
-
-      <!-- Ligne infophoto-->   
-      <div id="infophoto" class="row">
-
-        <div id="info" class="col-xs-6 col-xs-offset-3 text-center" >
-          <p id="name"><strong>Max Lepin</strong><br></p> 
+      <div id="menu" class="row">
+        <div class="col-md-2 col-md-offset-10 col-xs-4 col-xs-offset-8 float-right">
           
-          <a id='email' href='mailto:max.09@outlook.com'>max.09@outlook.com</a>        
+          <div class="dropdown">
+            <button class="btn btn-xs dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              <i class="fa fa-globe"></i> English
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="index.html">English 🇬🇧</a></li>
+              <li><a href="index-fr.html">Français 🇫🇷</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Ligne infophoto-->
+      <div id="infophoto" class="row">
+        
+        <div id="info" class="col-xs-6 col-xs-offset-3 text-center" >
+          <p id="name"><strong>Max Lepin</strong><br></p>
+          
+          <a id='email' href='mailto:max.lepin@outlook.com'>max.lepin@outlook.com</a><br>
+          <a id="email" hidden="true" href="https://qonnect.ml">www.qonnect.ml</a>
+          <div id='icon-link'>
+            <a id='iconCard' href="Max_Lepin.vcf" target="_blank" title="vCard" ><i class="fa fa-address-card fa-2x" aria-hidden="true"></i></a>
+            <a id='iconGit' href="http://www.github.com/max-le/" target="_blank" title="Github" > <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+            <a id='iconIn' title="Linkedin" target="_blank" href="http://linkedin.com/in/xam"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a>
+          </div>
+          
           
         </div>
-
-      </div> 
+        
+        
+      </div>
+      
+      
       <!-- Experience -->
       <div id="section" class="row">
         <h2>Experience</h2>
@@ -67,138 +95,199 @@
           </thead>
           <tbody>
             <tr>
-              <td>2016</td>
-              <td>Job d'étudiant - <b> LA BIOSPHERE : magasin d'alimentation biologique.</b> <br> Vente en caisse, nettoyage, rangement <i style="opacity: 0.5">( 4 mois )</i></td>
+              <td>2019</td>
+              <td>
+                Technical Documentation Writer - 
+                <a target="_blank" href=" https://soft4doc.com/About.aspx">SOFT4DOC</a> : Solution
+                 for healthcare professionals <br>
+                 Writing the documentation and user manuals of the platform.
+              </td>
+            </tr>
+            <tr>            
+              <td>2018</td>
+              <td>Student job - <strong>Bi'OK : organic retail shop. </strong> <br> Checkout operator & restock</td>
             </tr>
             
             <tr>
               <td>2016</td>
-              <td>Stage -<b> CO.STATION : Espace de co-working </b><br>
-               Stage de fin d'études secondaires : immersion dans le milieu professionnel
-               <i style="opacity: 0.5">( 3 jours )</i>
-             </td>
-           </tr>
-
-           <tr>
-            <td>2014</td>
-            <td>Job d'étudiant - <b>La PAPETERIE : fourniture de bureaux.</b> <br>Rangements des articles en rayon et en stock, nettoyage des machines <i style="opacity: 0.5">( 2 semaines )</i></td>
-          </tr>
-
-        </tbody>
-      </table>
-
-
-
-    </div>
-    <!-- Education -->
-    <div id="section" class="row">
-      <h2>Education</h2>
-      <table class="table">
-        <thead hidden="true">
-          <tr>
-            <th>Date</th>
-            <th>Content</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>2016-2017</td>
-            <td><b>1ère année en Bachelier en Sciences économiques et de gestion </b>- <a target="_blank" href="https://uclouvain.be">Université Catholique de Louvain</a></td>
-          </tr>
-          <tr>
-            <td> 2011-2016</td>
-            <td> <b>CESS (orientation générale) </b> - <a target="_blank" href="http://www.cste.be/msg/">Collège Saint-Etienne à Mont-Saint-Guibert</a><br>Option Sciences et Langues modernes ( Allemand, Anglais, Néerlandais )</td>
-          </tr>
-        </tbody>
-      </table>
-
-    </div>
-
-    <!-- Langues -->
-    <div id="section" class="row">
-      <h2>Langues</h2>
-      <table class="table">
-        <thead hidden="true">
-         <tr>
-          <th>Date</th>
-          <th>Content</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Allemand</td>
-          <td>B1 <i> début d'autonomie ; se débrouiller, exprimer son opinion.</i></td>
-        </tr>
-        <tr>
-          <td>Néerlandais</td>
-          <td>B2 <i>Compréhension courante et capacité à converser ; émettre un avis, soutenir systématiquement une argumentation.</i>
-          </td>
-        </tr>
-        <tr>
-          <td>Anglais</td>
-          <td>C1 <i>S'exprimer spontanément et couramment, assez bonne maîtrise.</i></td>
-        </tr>
-        <tr>
-          <td>Français</td>
-          <td>  C2 : (Langue maternelle) <i>Bonne maîtrise de l'orthographe, finaliste du concours <a target="_blank" href="https://www.la-dictee-du-balfroid.be/">"la dictée du Balfroid"</a> en 2009.</i></td>
-        </tr> 
-      </tbody>
-    </table>
-
-  </div>
-
-      <!-- Info -->
-    <div id="section" class="row">
-      <h2>Compétences informatiques</h2>
-      <table class="table-show">
-        <thead hidden="true">
-         <tr>
-          <th>Date</th>
-          <th>Content</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Suite MS Office</td>
-          <td>
-            <!-- <ul><li>Word</li><li>Excel</li><li>Access</li><li>VBA</li></ul> -->
-            Excel - VBA - Access
-          </td>
-
-            <td>Réalisation d'un système informatique d'entreprise fictif dans le cadre du cours d'informatique à l'UCL. <a href="WebTrade_Bank_rapport.pdf"> <br> <i class="fa fa-file-pdf-o"> Voir le projet</a></td>
-        </tr>
-        <tr>
-          <td>Web</td>
-            <td>HTML5 - CSS3 - Javascript -jQuery - Boostrap </td> <td>Création d'un <a href="http://maxlepin.ml"> site web personnel </a> et d'une <a target="_blank" href="http://marielfrancois.be/galerie.html"> galerie virtuelle</a></td>
-        </tr>
-        <tr>
-          <td>Contrôle de version</td><td>Git</td><td>Commandes basiques pour gestion de petits projets personnels.</td>
-        </tr>
+              <td>Student job - <strong> LA BIOSPHERE : organic retail shop.</strong> <br>Checkout operator, restock, cleaning</td>
+            </tr>
+            
+            <tr>
+              <td>2016</td>
+              <td>Internship -<strong>  CO.STATION : Co-working space/start-up incubator </strong><br>
+                High school traineeship: integration in a corporate environment
+                
+              </td>
+            </tr>
+            
+            <tr>
+              <td>2014</td>
+              <td>Student job - <strong> La PAPETERIE : office supplies.</strong> <br>Restock and machine maintenance </td>
+            </tr>
+            
+          </tbody>
+        </table>
         
-      </tbody>
-    </table>
-
-  </div>
-  <div class="row" id ="links-row">
-    <div id = "links-col" class="col-md-4 col-md-offset-10 col-xs-offset-9">
-      <a href="https://uclouvain-my.sharepoint.com/:x:/g/personal/lepin_oasis_uclouvain_be/EYD-F6OJiuFPkgVzj0aM73YBKgjWG62OjVW6xTp1RiFtRQ?e=2KKaha" target="_blank" title="Voir disponibilités"><i class="fa fa-calendar fa-2x" aria-hidden="true"></i></a>
-      <a href="http://www.github.com/max-le/cv-online-new" target="_blank" title="Voir repo sur Github" >
-        <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-        <a href="cv_max_lepin.pdf" title="Télécharger le CV" target="_blank"> <i class="fa fa-download fa-2x" aria-hidden="true"></i></a>
-
+        
+        
       </div>
-    </div>
-  </div>
+      <!-- Education -->
+      <div id="section" class="row">
+        <h2>Education</h2>
+        <table class="table">
+          <thead hidden="true">
+            <tr>
+              <th>Date</th>
+              <th>Content</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2020</td>
+              <td>Ongoing 6-month professional training in software development with Java and Angular.</td>
+            </tr>
+            <tr>
+              <td>2019</td>
+              <td>Certificate of achievement: introduction to IT project management delivered by OpenClassrooms <a target="_blank" href="https://openclassrooms.com/en/course-certificates/9506642816"> ( show certificate <i class="fa fa-external-link" aria-hidden="true"></i> )</a></td>
+            </tr>
+            <tr>
+              <td>2019</td>
+              <td>Certificate of mobile development in React Native delivered by OpenClassrooms <a target="_blank" href="https://openclassrooms.com/en/course-certificates/6062345182"><i> ( show certificate <i class="fa fa-external-link" aria-hidden="true"></i> ) </i> </a>  </td>
+            </tr>
+            <tr>
+              <td>2018-2019</td>
+              <td>1 year in <i>Data Science & Knowledge Engineering</i> at Maastricht Universiteit</td>
+            </tr>
+            <tr>
+              <td>2016-2017</td>
+              <td><strong> 2 years in <i>Economics and Management</i> at </strong><a target="_blank" href="https://uclouvain.be">UCLouvain</a></td>
+            </tr>
+            <tr>
+              <td> 2011-2016</td>
+              <td> <strong> High school diploma (CESS) </strong> - <a target="_blank" href="http://www.cste.be/msg/">Collège Saint-Etienne à Mont-Saint-Guibert</a><br>Sciences and modern languages (English, Dutch, German)</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+      
+      <!-- Langues -->
+      <div id="section" class="row">
+        <h2>Languages</h2>
+        <table class="table">
+          <thead hidden="true">
+            <tr>
+              <th>Date</th>
+              <th>Content</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>German</td>
+              <td>B1 <i>Threshold / intermediate : "Intensive German language course" in 2018 at <a target="_blank" href="http://www.sdi-muenchen.de/deutsch_lernen/"> SDI München</a> </i> </td> 
+            </tr>
+            <tr>
+              <td>Dutch</td>
+              <td>B1 <i>Threshold / intermediate</i> : Intensive Course at <a  target="_blank" href="https://www.utrechtsummerschool.nl/">Utrecht Summer School</a> organized by Utrecht Universiteit ( Dutch Language Level 5 : B1->B2). 
+              </td>
+            </tr>
+            <tr>
+              <td>English</td>
+              <td>B2 <i>Vantage / upper intermediate -  TOEFL® certification</i> <a  role="button" id="TOEFL"> <i>(Show scores)</i> </a>
+                <div id="toefl_scores" hidden="true">
+                  <ul>
+                    <br>
+                    <li>Reading : 27/30</li>
+                    <li>Listening : 25/30</li>
+                    <li>Speaking : 19/30</li>
+                    <li>Writing : 21/30</li>
+                    <br>
+                    <li>Total : 92/120</li>
+                  </ul>
+                  <a target="_blank" href="https://www.ets.org/toefl/ibt/scores/understand">Understanding the scores</a>
+                  
+                </div></td>
+                
+              </tr>
+              <tr>
+                <td>French</td>
+                <td>  C2 : (Native language) <i>Excellent knowledge of grammar and spelling, finalist of the national spelling contest <a target="_blank" href="https://www.la-dictee-du-balfroid.be/">"la dictée du Balfroid"</a> in 2009.</i></td>
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
+        
+        <!-- Info -->
+        <div id="section" class="row">
+          <h2>IT skills</h2>
+          <table class="table-show">
+            <thead hidden="true">
+              <tr>
+                <th>Date</th>
+                <th>Content</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Robotic Process Automation</td>
+                <td>Automation Anywhere </td>
+                <td>Technical knowledge of the software,
+                  experienced with bot creation for multiple projects and implementation process<br>
+                  Certified as “Bot Developed” by Automation Anywhere University
+                </td>
+              </tr>
+              <tr>
+                <td>Système d'exploitation</td>
+                <td>Windows - macOS - Linux</td>
+                <td>Familiar of thoses OS for daily use, ability to use UNIX systems ( MacOS / Linux )  in CLI mode</td>
+              </tr>
+              <tr>
+                <tr>
+                  
+                  <td>MS Office</td>
+                  <td>
+                    <!-- <ul><li>Word</li><li>Excel</li><li>Access</li><li>VBA</li></ul> -->
+                    Excel - VBA - Access
+                  </td>
+                  
+                  <td>Ability to leverage macros to automate computing in Excel spreadsheets - Creation of a virtual corporate IT system as final assignment for business IT course at UCLouvain<br>
+                    
+                  </td>
+                </tr>
+                <tr>
 
 
+                  <td>Programming<br></td>
+                  <td>Python - Java - JavaScript</td>
+                  <td>Good understanding of the concepts of object-oriented programming, experience with pair programming, mindful of general good practices and conventions.
+                    <br>IDEs : Experience with Eclipse and IntelliJ for Java development. Love to work with VS Code.
+                  </td>        </tr>
+                  <td>Web</td>
+                  <td>HTML5 - CSS3 - Javascript -jQuery - Bootstrap </td> 
+                  <td>Familiar with the essential web technologies of web development. Able to prepare & deploy a website on a web server.</td>
+                </tr>
+                <tr>
+                  <td>Version control</td><td>Git</td><td>Basic commands for managing projects.</td>
+                </tr>
+                
+              </tbody>
+            </table>
+            
+          </div>
 
-
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-
-  <!-- jQuery UI -->
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-</body>
-</html>
+              
+              
+              
+              
+              <!-- Include all compiled plugins (below), or include individual files as needed -->
+              <script src="bootstrap/js/bootstrap.min.js"></script>
+              
+              <!-- jQuery UI -->
+              <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+              <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+              <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+            </body>
+            </html>
+            

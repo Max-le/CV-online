@@ -1,7 +1,22 @@
 
 body{
-	background : ;
 } 
+.close {
+	text-decoration: none;
+}
+
+/* Define animation */
+
+#icon-link{
+transition: 0.5s;
+}
+
+#icon-link:hover{
+	  transform:scale(1.5);
+}
+#myname {
+	cursor: crosshair;
+}
 
 .container{
 	font-size: 14px;
@@ -22,13 +37,17 @@ h2 {
 	font-size: 26px;
 	color: #3388BB;
 	text-transform:uppercase;
-	border-bottom:3px solid #3388DD;
+	border-bottom:3px solid;
 }
 button {
 }
-
+label {
+    display: inline-block;
+    width: 5em;
+  }
 a {
-	color: #333333;
+	color:  #004d80;
+	text-decoration: underline;
 }
 #info {
 	line-height: 1.2;
@@ -46,18 +65,25 @@ a {
 #contenu {
 
 }
-#links-row{
-}
-#links-col{
-}
+
 #name{
+	/* Change mouse style */
+	cursor: pointer;
 	font-size: 44px;
 	color: #3388DD;
+	/* The following prevents highlight selection text */
+		  -webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
 }
 #email{
 	font-size: 14px;
 	color: #3388;
 
+}
+#icon-link{
+	margin-top: 10px;
 }
 .row {
 	margin: 5px;
@@ -81,12 +107,21 @@ a {
 
 }
 
+@media 
+(max-width: 750px) {
+	#links-col {
+
+    text-align: center;
+	}
+
+}
+
 .table-show>tbody>tr>td,
 .table-show>tbody>tr>th {
 
 	border:none;
     text-align: left;
-    padding: 8px;
+    padding: 10px;
 	line-height: 1;
 }
 

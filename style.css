@@ -35,7 +35,7 @@ transition: 0.5s;
 
 h2 { 
 	font-size: 26px;
-	color: #3388BB;
+	color: #b52e31;
 	text-transform:uppercase;
 	border-bottom:3px solid;
 }
@@ -46,7 +46,7 @@ label {
     width: 5em;
   }
 a {
-	color:  #004d80;
+	color:  #631416;
 	text-decoration: underline;
 }
 #info {
@@ -70,7 +70,7 @@ a {
 	/* Change mouse style */
 	cursor: pointer;
 	font-size: 44px;
-	color: #3388DD;
+	color: #b52e31;
 	/* The following prevents highlight selection text */
 		  -webkit-user-select: none;
      -moz-user-select: -moz-none;
@@ -79,7 +79,7 @@ a {
 }
 #email{
 	font-size: 14px;
-	color: #3388;
+	color: #631d1e;
 
 }
 #icon-link{

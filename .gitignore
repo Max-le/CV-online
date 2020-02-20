@@ -6,3 +6,4 @@ node_modules
 /.idea/
 assets/css/main.css
 assets/js/main.js
+package-lock.json

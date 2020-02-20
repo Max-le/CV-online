@@ -27,7 +27,7 @@
     font-size: 50px;
     display: block;
     line-height: 1;
-    color: #FFF;
+    color: $third;
     @media only screen and (min-width:$cut){
       margin: 0;
       font-size: 100px;
@@ -37,7 +37,7 @@
     font-size: 20px;
     display: block;
     line-height: 1;
-    color: #FFF;
+    color: $third;
     margin-top: 10px;
     @media only screen and (min-width:$cut){
       font-size: 40px;
@@ -48,7 +48,7 @@
 .header-links {
   margin: 10px;
   .link {
-    color: #FFF;
+    color: $third;
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
@@ -64,7 +64,7 @@
   text-align: center;
   .icon {
     text-align: center;
-    color: #FFF;
+    color: $third;
     width: 20px;
     height: 20px;
     font-size: 20px;

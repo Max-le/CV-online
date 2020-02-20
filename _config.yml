@@ -2,7 +2,7 @@
 title: Max Lepin
 description: The blog of a Tech enthouiast & lifelong-learner
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
-url: max-le.github.io # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url:  # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 # User settings
 username: Max Lepin
 user_title : Java-Angular Developer

@@ -1,10 +1,5 @@
 _site
-.sass-cache
 node_modules
-.DS_STORE
-.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7/9606fb3afea5bd1609ed40b622142f1c98125abcfe89a76a661b0e8e343910
+.jekyll-cache
 /.idea/
-assets/css/main.css
-assets/js/main.js
-package-lock.json
-Gemfile.lock
+

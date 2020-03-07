@@ -41,7 +41,7 @@ That is exactly the problem that bother me and motivated me to start this projec
 
 ## My project
 
-In my quest to get more reliable decisions, I started by searching the right source.
+In my quest to get more reliable translations, I started by searching the right source.
 
 The criterias for the ideal source of information for my project are: 
 - Man-made translations (A human actually wrote the definition/translation)

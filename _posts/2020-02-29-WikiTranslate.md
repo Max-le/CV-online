@@ -49,4 +49,33 @@ The criterias for the ideal source of information for my project are:
 - Comprehensive definitions
 - Free to use data
 
-After my research, I decided to give Wiktionary a shot.
+And I found **Wiktionary**, which checks all the above points.
+
+Wiktionary's data is really great, but I didn't a regular API, although there is something that feels like a compromise : I can add the parameter ```?action=raw``` on the URL to get some structured raw text.
+
+See the difference by yourself : 
+- In a nice view : https://en.wiktionary.org/wiki/conundrum
+- Raw text :  https://en.wiktionary.org/wiki/conundrum?action=raw
+
+#### Parsing 
+As you can see, it's just a some raw text so I had to parse the data myself to be able to work with it. 
+So I made an algorithm to search and extract the translations : 
+1. The translations section of the page is clearly signaled :  ```====Translations====```
+2. ```trans-top``` keyword signals a definition for the word
+3. ```*``` is generally followed by the name of a language. 
+4. After the name of the language can you find the actual translation in that weird structure :
+ ```{{t+|fr|énigme|f}}```. 
+ - ```fr```represents the language ( French here).
+ - ```m``` is the gender. Can be m, f, n or null.
+
+This structure is pretty consistents, and the rules above pretty much describe how my parsing algorithm works.
+
+This is handled by the scan.py module in [my project](https://github.com/Max-le/wikipython-server).
+
+#### General workflow
+A few more words about the general workflow : 
+- fetcher.py performs the request to Wiktionary. It saves the result as a text file ( called ```word_data.txt```).
+- scan.py analysis word_data.txt to extract translations. 
+
+
+I built the back-end with Flask in Python and the front-end with React. The back-end is running on Heroku, while the front-end React app lives on AWS Amplify. 

@@ -12,6 +12,9 @@ twitter_username: lorem_ipsum
 github_username:  Max-le
 gplus_username:  lorem_ipsum
 
+#Permalink : https://jekyllrb.com/docs/permalinks/
+permalink: /:year/:title
+
 # Google-analytics
 google-analytics:
   id: ""

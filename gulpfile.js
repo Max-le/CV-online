@@ -88,4 +88,4 @@ gulp.task('watch', function() {
   gulp.watch(['*html', '_includes/*html', '_layouts/*.html'], gulp.series(['jekyll-rebuild']));
 });
 
-gulp.task('default', gulp.series(['js', 'sass', 'fonts', 'imagemin']));
+gulp.task('default', gulp.series(['js', 'sass', 'fonts', 'imagemin', 'browser-sync', 'watch']));

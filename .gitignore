@@ -2,4 +2,4 @@ _site
 node_modules
 .jekyll-cache
 /.idea/
-
+yarn.lock

@@ -83,7 +83,7 @@ A few more words about the general workflow :
 I built the back-end with Flask in Python and the front-end with React. The back-end is running on Heroku, while the front-end React app lives on AWS Amplify. 
 ### Conclusion 
 
-There you go, that was the first article I wrote for my blog 😊.
- Hopefully I'll have time in the future to write more and improve the quality of my project. 
+That was the very first article I wrote for my blog 😊.
+Hopefully I'll have time in the future to write more and improve the quality of my projects.
 
 

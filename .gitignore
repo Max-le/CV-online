@@ -3,3 +3,5 @@ node_modules
 .jekyll-cache
 /.idea/
 yarn.lock
+
+assets/css/main.css

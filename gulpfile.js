@@ -7,6 +7,7 @@ var plumber = require('gulp-plumber');
 var cp = require('child_process');
 var imagemin = require('gulp-imagemin');
 var browserSync = require('browser-sync');
+var run = require('gulp-run-command').default
 
 var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
 
@@ -14,10 +15,7 @@ var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
  * Build the Jekyll Site
  * runs a child process in node that runs the jekyll commands
  */
-gulp.task('jekyll-build', function (done) {
-	return cp.spawn(jekyllCommand, ['build'], {stdio: 'inherit'})
-		.on('close', done);
-});
+gulp.task('jekyll-build',  run('bundle exec jekyll build'))
 
 /*
  * Rebuild Jekyll & reload browserSync
@@ -26,6 +24,8 @@ gulp.task('jekyll-rebuild', gulp.series(['jekyll-build'], function (done) {
 	browserSync.reload();
 	done();
 }));
+
+
 
 /*
  * Build the jekyll site and launch browser-sync

@@ -3,7 +3,7 @@ layout: post
 author: Max Lepin
 tags: [languages, translation, linguistics, python, Flask]
 ---
-# Word translating with Wiktionary
+# Word translation with Wiktionary
 
 Making a translator based on [Wiktionary.org](https://www.wiktionary.org/).
 

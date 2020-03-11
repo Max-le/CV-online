@@ -7,6 +7,7 @@ tags: [languages, translation, linguistics, python, Flask]
 
 Making a translator based on [Wiktionary.org](https://www.wiktionary.org/).
 
+Author : *Max Lepin*
 
 ## Introduction
 Google translate is without doubt getting more accurate with years, but you can still encounter cases where the translation is not very helpful nor comprehensive. 

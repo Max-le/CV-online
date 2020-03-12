@@ -1,6 +1,10 @@
 article {
   font-family: Montserrat, sans-serif;
-  margin: 30px;
+  margin-left:50px;
+  margin-right:50px;
+  @media only screen and (max-width: $cut){
+    margin: 5px;
+  }
 }
 article img {
     max-width: 100%;

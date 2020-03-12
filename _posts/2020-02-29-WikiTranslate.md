@@ -75,7 +75,7 @@ This structure is pretty consistent, and the rules above pretty much describe ho
 This is handled by the scan.py module in [my project](https://github.com/Max-le/wikipython-server).
 
 #### General workflow
-A few more words about the general workflow : 
+A few more words about the general workflow of the back-end : 
 
 - fetcher.py performs the request to Wiktionary. It saves the result as a text file ( called ```word_data.txt```).
 - scan.py analyses word_data.txt to extract translations, returning a dictionary.  

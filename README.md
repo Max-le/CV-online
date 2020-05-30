@@ -1,3 +1,9 @@
+
+# This is my showcase professional website. 
+
+Below here the generic instructions provided by the theme that I use. 
+
+
 # Particle Jekyll Theme
 
 ![](./particle.jpg)

@@ -1,6 +1,12 @@
 
 # This is my showcase professional website. 
 
+Serve the website locally : 
+Install Jekyll on your machine : [Windows with WSL](https://jekyllrb.com/docs/installation/windows/#installation-via-bash-on-windows-10)
+Once Jekyll installed : 
+run the website with `bundler exec jekyll serve`
+
+
 Below here the generic instructions provided by the theme that I use. 
 
 

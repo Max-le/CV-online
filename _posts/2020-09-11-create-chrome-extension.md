@@ -14,3 +14,8 @@ Requirements :
 
 ## 
 
+
+[Privacy policy]({% post_url 2020-09-15-priv-policy-fuelcal %})
+
+
+

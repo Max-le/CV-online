@@ -6,8 +6,12 @@ Install Jekyll on your machine : [Windows with WSL](https://jekyllrb.com/docs/in
 Once Jekyll installed : 
 run the website with `bundler exec jekyll serve`
 
-
 Below here the generic instructions provided by the theme that I use. 
+
+Projects to add on this website : 
+
+- ChromeFuelCal
+- Blockchain
 
 
 # Particle Jekyll Theme

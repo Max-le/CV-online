@@ -6,24 +6,26 @@ tags: [chrome, google, javascript, maps, trip, "cost-saving"]
 ---
 
 This Chrome extension doesn't collect any data 
-<h1>Privacy Policy for https://maxle.be</h1>
+<h1>Privacy Policy for Fuel Calculator</h1>
 
-<p>At Fuel Calculator, accessible from https://maxle.be, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Fuel Calculator and how we use it.</p>
+(By "Fuel Calculator", we understand the Chrome extension Fuel Calculator available on the Chrome Web Store.)
+
+<p>This Privacy Policy document contains types of information that is collected and recorded by Fuel Calculator and how we use it.</p>
 
 <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us. Our Privacy Policy was generated with the help of <a href="https://www.gdprprivacynotice.com/">GDPR Privacy Policy Generator from GDPRPrivacyNotice.com</a></p>
 
 <h2>General Data Protection Regulation (GDPR)</h2>
 <p>We are a Data Controller of your information.</p>
 
-<p>https://maxle.be legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Information we collect and the specific context in which we collect the information:</p>
+<p>Fuel Calculator legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Information we collect and the specific context in which we collect the information:</p>
 <ul>
-    <li>https://maxle.be needs to perform a contract with you</li>
-    <li>You have given https://maxle.be permission to do so</li>
-    <li>Processing your personal information is in https://maxle.be legitimate interests</li>
-    <li>https://maxle.be needs to comply with the law</li>
+    <li>Fuel Calculator needs to perform a contract with you</li>
+    <li>You have given Fuel Calculator permission to do so</li>
+    <li>Processing your personal information is in Fuel Calculator legitimate interests</li>
+    <li>Fuel Calculator needs to comply with the law</li>
 </ul>
   
-<p>https://maxle.be will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.</p>
+<p>Fuel Calculator will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our policies.</p>
 
 <p>If you are a resident of the European Economic Area (EEA), you have certain data protection rights. If you wish to be informed what Personal Information we hold about you and if you want it to be removed from our systems, please contact us.</p>
 <p>In certain circumstances, you have the following data protection rights:</p>

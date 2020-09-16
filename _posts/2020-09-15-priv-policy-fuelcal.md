@@ -1,12 +1,10 @@
 ---
-layout: post
+layout: privacypolicy
 author: Max Lepin
-title : "Privacy policy for Chrome extension Fuel Calculator"
-tags: [chrome, google, javascript, maps, trip, "cost-saving"]
+title : "Privacy Policy for Fuel Calculator"
+tags: [privacy, data]
 ---
 
-This Chrome extension doesn't collect any data 
-<h1>Privacy Policy for Fuel Calculator</h1>
 
 (By "Fuel Calculator", we understand the Chrome extension Fuel Calculator available on the Chrome Web Store.)
 

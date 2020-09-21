@@ -40,6 +40,13 @@ Let's now understand **how a Chrome extension works**.
 
 * The **popup** is what appears when you click on the icon of the extension. Like a web page, a popup is made of 3 files : `popup.html`, `popup.css`, `popup.js`
 
+* The **content script** is the part of your extension that can interact with a web page opened in the browser, more specifically the DOM, just like any JavaScript code. The **content script** can, for example, change the background color of a page to add a nice dark theme. It works in isolated worlds ([check out this 2 min video to understand](https://youtu.be/laLudeUmXHM)).
+
+  * Content scripts will therefore be *injected* to a web page. This can be done in two ways : [programatically or declaratively](https://developer.chrome.com/extensions/content_scripts#functionality)
+    * In a nutshell : 	
+      * programmatically : code triggered and injected by a event.
+      * declaratively : code declared in the `manifest.json`([like this](https://developer.chrome.com/extensions/content_scripts#declaratively)).
+
   
 
 
@@ -50,10 +57,10 @@ Let's now understand **how a Chrome extension works**.
 
 Additional documentation and references : 
 
-- [](https://developer.chrome.com/extensions)
+- [Google's official documentation](https://developer.chrome.com/extensions)
 
 Google *requires* your extension to have a [privacy policy]({% post_url 2020-09-15-priv-policy-fuelcal %}).
 
 
 
-I give importance to the reader's opinion on the form and the content of this article. [Please let me know what you think](mailto:max.09@outlook.com), or any suggestions for improvement, I'll be grateful !🤓.
+I give importance to the reader's opinion on the form and the content of this article. [Please let me know what you think](mailto:max.09@outlook.com), or any suggestions for improvement, I'll be grateful !

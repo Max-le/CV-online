@@ -5,7 +5,8 @@
 <article>
 
     <h1>{{page.title}}</h1>
-    <em>Author : {{page.author}}</em>
+    <em>Author : {{page.author}}</em> <br>
+    <span>{{page.date | date_to_long_string }}</span>
 {{ content }}
 <a class='project-link' href="{{site.url}}"><i class="fa fa-arrow-left"></i> Back</a>
 </article>

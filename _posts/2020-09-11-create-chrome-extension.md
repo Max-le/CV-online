@@ -17,7 +17,7 @@ This only requirement is :
 
 This article has two purposes :
 
-1. It is my personal notes, so that in 6 months, when I'll have forgotten most of this and I'll want to make my next extension, I won't have to re-discover the wheel, i.e go through official documentation, deciphe it, and extract actionable information.
+1. It is personal notes, so that in 6 months, when I'll have forgotten most of this and I'll want to make my next extension, I won't have to re-discover the wheel, i.e go through official documentation, decipher it, and extract actionable information.
 2. Help other people to understand the topic and produce their products faster. Even if it slightly helps or motivate 3 other persons, I'm happy ☺
 
 Finally, as an example, I'll show how I created a useful extension for planning trips on Google Maps (that can potentially help you save money !). 
@@ -26,8 +26,6 @@ Finally, as an example, I'll show how I created a useful extension for planning 
 Although I like the *bottom-up* approach in learning technical stuff such as programming, it is sometimes better to have a more thorough understanding of a concept. 
 
 So, let's tackle the theory first.
-
-
 
 If you're reading this, you most probably know what a browser extension is and what they can do, so I won't elucidate that here (though it's done perfectly [there](https://developer.chrome.com/extensions)). 
 
@@ -45,11 +43,55 @@ Let's now understand **how a Chrome extension works**.
   * Content scripts will therefore be *injected* to a web page. This can be done in two ways : [programatically or declaratively](https://developer.chrome.com/extensions/content_scripts#functionality)
     * In a nutshell : 	
       * programmatically : code triggered and injected by a event.
-      * declaratively : code declared in the `manifest.json`([like this](https://developer.chrome.com/extensions/content_scripts#declaratively)).
+      * declaratively : code declared in the `manifest.json` ([like this](https://developer.chrome.com/extensions/content_scripts#declaratively)).
 
-  
+>Extensions are event based programs
+
+* Your extension will constantly "listen" to things happening in your browser, and you can intercept those events to react to it and take some action.
+  For that, you'll declare in your manifest a **background script**, set persistent to `false` (only in [rare cases](https://developer.chrome.com/extensions/background_pages#persistentWarning), you'll want to set it as true)
+
+  ```
+  {
+    "name": "Awesome Test Extension",
+    ...
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    ...
+  }
+  ```
+
+[Read more about it here](https://developer.chrome.com/extensions/background_pages)
+
+Then, in your script, you'll set up a listener on a particular event just like you would [set up a listener on a button](https://www.w3schools.com/JSREF/met_element_addeventlistener.asp) in the DOM. 
+
+[Have a look at this example](https://developer.chrome.com/extensions/runtime#event-onInstalled), where we listen to the event "first installation of the extension".
+
+## The practice (the fun part)
+
+This is where everything will come to life. I will demonstrate this with a small project I reaslized.
+
+### The project : estimate the cost in fuel of a trip
+
+#### Demo
+As they say : "A picture's worth a thousand words". So instead of explaining thoroughly what my extension does, check this 1' video].
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OIyrXh__X00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#### Why I built this project.
+I often ask myself this question : *"How much is this trip going to cost me ?"*, whether it's for commuting to work or a holiday road trip.
+I decided to tackle the problem and find a convenient way to calculate that.
+Google maps seemed like a good starting point, since I look trip information up there most of the time (you probably do too). With Chrome extenstions, it appeared possible to me to "enhance" G Maps to display the cost of a trip as well. 
+As a first goal I focused on the fuel cost only, excluding tolls, which I might add as an additional feature later.
+
+#### How I built this project.
 
 
+
+
+
+## Publish your work (optional)
+
+Google *requires* your extension to have a [privacy policy]({% post_url 2020-09-15-priv-policy-fuelcal %}).
 
 
 
@@ -59,8 +101,7 @@ Additional documentation and references :
 
 - [Google's official documentation](https://developer.chrome.com/extensions)
 
-Google *requires* your extension to have a [privacy policy]({% post_url 2020-09-15-priv-policy-fuelcal %}).
 
 
+I give importance to the reader's opinion on the form and the content of this article. [Please let me know what you think](mailto:max.09@outlook.com?subject=Feedback on article Chrome extension), or any suggestions for improvement, I'll be grateful !
 
-I give importance to the reader's opinion on the form and the content of this article. [Please let me know what you think](mailto:max.09@outlook.com), or any suggestions for improvement, I'll be grateful !

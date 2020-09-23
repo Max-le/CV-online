@@ -92,7 +92,6 @@ Find out more about storage [here](https://developer.chrome.com/extensions/stora
 This is where everything will come to life. I will demonstrate this with a small project I realized.
 
 ### The project : Fuel Calculator
-
 #### Demo
 
 As they say : "A picture's worth a thousand words". So instead of explaining thoroughly what my extension does, check this 1 min video.

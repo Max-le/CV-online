@@ -72,8 +72,7 @@ Then, in your script, you'll set up a listener on a particular event just like y
 
 This is where everything will come to life. I will demonstrate this with a small project I reaslized.
 
-### The project : estimate the cost in fuel of a trip
-
+### The project : Fuel Calculator
 #### Demo
 As they say : "A picture's worth a thousand words". So instead of explaining thoroughly what my extension does, check this 1 min video.
 <iframe width="800" height="450" src="https://www.youtube.com/embed/OIyrXh__X00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

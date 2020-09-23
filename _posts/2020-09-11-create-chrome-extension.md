@@ -68,30 +68,71 @@ Then, in your script, you'll set up a listener on a particular event just like y
 
 [Have a look at this example](https://developer.chrome.com/extensions/runtime#event-onInstalled), where we listen to the event "first installation of the extension".
 
+* Final important point : **the storage**.
+There are two types of storage : *sync* and *local*, so you have the choice. Pretty obviously, *sync* will save your data in your Google account, so if you use the extension in another browser, you'll find the same data. 
+**This is useful for user settings**.
+Here is how to access the storage : 
+
+```
+        chrome.storage.sync.set({key: value}, function() {
+          console.log('Value is set to ' + value);
+        });
+        chrome.storage.sync.get(['key'], function(result) {
+          console.log('Value currently is ' + result.key);
+        });
+```
+
+Find out more about storage [here](https://developer.chrome.com/extensions/storage).
+
+
+
+
 ## The practice (the fun part)
 
-This is where everything will come to life. I will demonstrate this with a small project I reaslized.
+This is where everything will come to life. I will demonstrate this with a small project I realized.
 
-### The project : estimate the cost in fuel of a trip
+### The project : Fuel Calculator
 
 #### Demo
+
 As they say : "A picture's worth a thousand words". So instead of explaining thoroughly what my extension does, check this 1 min video.
 <iframe width="800" height="450" src="https://www.youtube.com/embed/OIyrXh__X00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### Why I built this project.
+
 I often ask myself this question : *"How much is this trip going to cost me ?"*, whether it's for commuting to work or a holiday road trip.
 I decided to tackle the problem and find a convenient way to calculate that.
-Google maps seemed like a good starting point, since I look trip information up there most of the time (you probably do too). With Chrome extenstions, it appeared possible to me to "enhance" G Maps to display the cost of a trip as well. 
+Google maps seemed like a good starting point, since I look trip information up there most of the time (you probably do too). With Chrome extentions, it appeared possible to me to "enhance" G Maps to display the cost of a trip as well. 
 As a first goal I focused on the fuel cost only, excluding tolls, which I might add as an additional feature later.
 
 #### How I built this project.
+*I would also recommend having [this guide](https://developer.chrome.com/extensions/getstarted) opened when you make your first extension*
+Here are the steps I took : 
 
+1. Create a `manifest.json` file. As mentioned before, it's the backbone of the extension so it makes sense to write it first.
+    a. Declare the name, version and description of my extension (only mandatary entries of the manifest).
+  b. Find a nice icon and declare it on the manifest. I like the [Noun Project](https://thenounproject.com/) for that purpose.
+  
+  That's it for the initial manifest. I declared others files as they were created in the project.
+  
+2. 
+
+//This part is under construction.
 
 
 
 
 ## Publish your work (optional)
 
-Google *requires* your extension to have a [privacy policy]({% post_url 2020-09-15-priv-policy-fuelcal %}).
+You will publish your extension on the Chrome Web Store.
+
+Bad news : it isn't free. Good news : it's not that expensive (one-time $5) (especially comparing to the $99/year for Apple Store !).
+
+Otherwise, you just need to follow the registration procedure if it's your first time. I can give you a few additional pieces of information : 
+
+* Google *requires* your extension to have a privacy policy. My first submission was rejected for this reason ([here is mine]({% post_url 2020-09-15-priv-policy-fuelcal %})).
+* It can take quite some time to be reviewed, be patient.
+* [Paid extensions won't be allowed as of next year](https://developer.chrome.com/webstore/cws-payments-deprecation).
 
 
 

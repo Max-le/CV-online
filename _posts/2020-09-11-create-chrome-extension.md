@@ -92,7 +92,6 @@ Find out more about storage [here](https://developer.chrome.com/extensions/stora
 This is where everything will come to life. I will demonstrate this with a small project I realized.
 
 ### The project : Fuel Calculator
-
 #### Demo
 
 As they say : "A picture's worth a thousand words". So instead of explaining thoroughly what my extension does, check this 1 min video.
@@ -111,9 +110,12 @@ Here are the steps I took :
 
 1. Create a `manifest.json` file. As mentioned before, it's the backbone of the extension so it makes sense to write it first.
     a. Declare the name, version and description of my extension (only mandatary entries of the manifest).
-  b. Find a nice icon and declare it on the manifest. I like the [Noun Project](https://thenounproject.com/) for that purpose.
-  
-  That's it for the initial manifest. I declared others files as they were created in the project.
+    ```
+      "name": "Fuel Calculator",
+      "version": "1.0",
+      "description": "Quickly estimate the cost of a car journey.",
+    ```
+  b. Find a nice icon and [declare it on the manifest](https://developer.chrome.com/extensions/manifest/icons). I like the [Noun Project](https://thenounproject.com/) for that purpose.
   
 2. 
 
@@ -141,6 +143,8 @@ Otherwise, you just need to follow the registration procedure if it's your first
 Additional documentation and references : 
 
 - [Google's official documentation](https://developer.chrome.com/extensions)
+- Beautiful, well designed and free icons : [The Noun Project](https://thenounproject.com/)
+- Proper software versioning : https://en.wikipedia.org/wiki/Software_versioning
 
 
 

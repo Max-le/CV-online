@@ -75,8 +75,8 @@ This is where everything will come to life. I will demonstrate this with a small
 ### The project : estimate the cost in fuel of a trip
 
 #### Demo
-As they say : "A picture's worth a thousand words". So instead of explaining thoroughly what my extension does, check this 1' video].
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OIyrXh__X00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+As they say : "A picture's worth a thousand words". So instead of explaining thoroughly what my extension does, check this 1 min video.
+<iframe width="800" height="450" src="https://www.youtube.com/embed/OIyrXh__X00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #### Why I built this project.
 I often ask myself this question : *"How much is this trip going to cost me ?"*, whether it's for commuting to work or a holiday road trip.
 I decided to tackle the problem and find a convenient way to calculate that.

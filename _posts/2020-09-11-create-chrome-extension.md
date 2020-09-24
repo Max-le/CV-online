@@ -109,17 +109,48 @@ As a first goal I focused on the fuel cost only, excluding tolls, which I might 
 Here are the steps I took : 
 
 1. Create a `manifest.json` file. As mentioned before, it's the backbone of the extension so it makes sense to write it first.
+
     a. Declare the name, version and description of my extension (only mandatary entries of the manifest).
     ```
       "name": "Fuel Calculator",
       "version": "1.0",
       "description": "Quickly estimate the cost of a car journey.",
     ```
+
   b. Find a nice icon and [declare it on the manifest](https://developer.chrome.com/extensions/manifest/icons). I like the [Noun Project](https://thenounproject.com/) for that purpose.
   
-2. 
+2. Create a background script that will set the default options for the user on installation of the app. 
+```
+    chrome.runtime.onInstalled.addListener(function() {
 
-//This part is under construction.
+    console.log("Thanks for installing Fuel Calculator.")
+
+    chrome.storage.sync.set({currency: 'EUR', litersPerKm: "0.06", costLiterOfFuel: "1.4"}, function() {
+      console.log("Defaults user options are set.");
+
+    });
+```
+  Then declare it in `manifest.json`.
+3. Retrieve the distance in the G Maps webpage opened. This is done by the content script. Here is a function illustrating the idea : 
+```
+   function getTripDistanceFromDOM() {
+    let divTripDistance = document.getElementsByClassName("section-directions-trip-distance")[0]; 
+    if (divTripDistance == null){
+      console.warn("Couldn't get element in DOM ! You may need to wait a bit before calling this function.")
+      return null; 
+    }
+    for (var i = 0; i < divTripDistance.children.length; i++) {
+      child = divTripDistance.children[i];
+      if (child.innerHTML.includes("km")){ 
+        return child.innerHTML;
+       }
+    }
+  }
+```
+4. Communicate the trip distance to the popup, via the message system. Basically the popup will send a message (type "simple one-time request") to the content script saying : "Hey, message me back the distance trip information". The content script will look for the information (using the function above) and sends a response back.
+
+    [Read more here on message passing](https://developer.chrome.com/extensions/messaging).
+
 
 
 

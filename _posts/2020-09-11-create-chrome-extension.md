@@ -118,7 +118,7 @@ Here are the steps I took :
     ```
 
   b. Find a nice icon and [declare it on the manifest](https://developer.chrome.com/extensions/manifest/icons). I like the [Noun Project](https://thenounproject.com/) for that purpose.
-  
+
 2. Create a background script that will set the default options for the user on installation of the app. 
 ```
     chrome.runtime.onInstalled.addListener(function() {
